@@ -1,0 +1,73 @@
+<?php
+$string =  '<!DOCTYPE html>'.
+'<html lang="fr-FR">'.
+'<head>'.
+'    <meta charset="utf-8">'.
+'    <title>coavivial</title>'.
+'    <link rel="stylesheet" href="style.css">'.
+'</head>'.
+'<body>'.
+'    <header>'.
+'        <h1 style="text-align: center;">coavivial</h1><br />'.
+'        <section style="text-align: center;">'.
+'            <button><a href="coavivial_questcequecest.html">coavivial qu\'est-ce que c\'est ?</a></button>'.
+'        </section>'.
+'        <section style="text-align: right;">'.
+'            <span>invitations DM notifications</span>'.
+'            <button><a href="parametres.html">paramètres</a></button>'.
+'        </section>'.
+'        <section style="text-align: center;">'.
+'            <button><a href="mon_profil.html">Ton profil</a></button>'.
+'            <button><a href="mes_vols.html">Mes vols</a></button>'.
+'        </section>'.
+'    </header>'.
+'    <main>'.
+'        <p>Nous t\'aidons à trouver le coavioneur ou la coavioneuse qui te convient.</p><br />'.
+'        '.
+'        <form id="searchForm" class="formulaire" method="post" action=".">'.
+'            <fieldset>'.
+'                <p class="champ">'.
+'                    <label for="departure">Aérodrome/aéroport de départ</label>'.
+'                    <input id="departure" name="departure" value="" class="" required />'.
+'                </p>'.
+'                <p class="champ">'.
+'                    <label for="destination">Aérodrome/aéroport de destination</label>'.
+'                    <input id="destination" name="destination" value="" class="" required />'.
+'                </p>'.
+'                <div class="champ">'.
+'                    <label for="ctrinteret">centres d\'intérêt</label>'.
+'                    <input type="text" id="ctrinteret" name="ctrinteret" minlength="4" required />'.
+'                </div><br />'.
+'                <button type="submit">Rechercher</button>'.
+'            </fieldset>'.
+'        </form>'.
+''.
+'        <table>'.
+'            <tr>'.
+'                <td><img src="" alt="image 1" width="400" height="341" title="image 1" /></td>'.
+'                <td><img src="" alt="image 2" width="400" height="341" title="image 2" /></td>'.
+'                <td><img src="" alt="image 3" width="400" height="341" title="image 3" /></td>'.
+'                <td><img src="" alt="image 4" width="400" height="341" title="image 4" /></td>'.
+'            </tr>'.
+'            <tr>'.
+'                <td>pseudo</td>'.
+'                <td>pseudo</td>'.
+'                <td>pseudo</td>'.
+'                <td>pseudo</td>'.
+'            </tr>'.
+'            <tr>'.
+'                <td>heures de vol</td>'.
+'                <td>heures de vol</td>'.
+'                <td>heures de vol</td>'.
+'                <td>heures de vol</td>'.
+'            </tr>'.
+'        </table><br />'.
+'        <section style="text-align: center;">'.
+'            <button>Te déconnecter</button>'.
+'        </section>'.
+'    </main>'.
+'</body>'.
+'</html>';
+
+ echo $string; 
+?>
